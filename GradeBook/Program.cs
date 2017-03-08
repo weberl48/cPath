@@ -10,10 +10,7 @@ namespace Grades
     {
         static void Main(string[] args)
         {
-            GradeBook g1 = new GradeBook();
-            GradeBook g2 = g1;
-
-            g1.Name = "Bob's gradebook";
+            
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             book.AddGrade(33);
